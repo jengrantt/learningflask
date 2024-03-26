@@ -7,9 +7,9 @@ def index():
     return "hello world"
 
 
-@app.route("/Jenna")
-def index():
-    return "hello world, Jenna"
+@app.route("/jenna")
+def jenna():
+    return "hello world, jenna"
 
 if __name__ == "__main__":
     app.run(debug=True)
